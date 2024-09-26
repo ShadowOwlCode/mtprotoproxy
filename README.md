@@ -9,7 +9,7 @@ Install Docker:
 bash <(curl -sSL https://get.docker.com)
 ```
     
-1. `git clone -b stable https://github.com/ShadowOwlCode/mtprotoproxy.git; cd mtprotoproxy`
+1. `git clone -b master https://github.com/ShadowOwlCode/mtprotoproxy.git; cd mtprotoproxy`
 2. *(optional, recommended)* edit *config.py*, set **PORT**, **USERS** and **AD_TAG**
 3. `docker-compose up -d` (or just `python3 mtprotoproxy.py` if you don't like Docker)
 4. *(optional, get a link to share the proxy)* `docker-compose logs`
