@@ -3,6 +3,11 @@
 Fast and simple to setup MTProto proxy written in Python.
 
 ## Starting Up ##
+
+Install Docker:
+```
+bash <(curl -sSL https://get.docker.com)
+```
     
 1. `git clone -b stable https://github.com/alexbers/mtprotoproxy.git; cd mtprotoproxy`
 2. *(optional, recommended)* edit *config.py*, set **PORT**, **USERS** and **AD_TAG**
